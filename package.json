@@ -62,9 +62,7 @@
 		"eject": "react-scripts eject",
 		"heroku-postbuild": "yarn build",
 		"ssr:start": "webpack --mode development --watch",
-		"ssr:build": "webpack --mode production",
-		"styleguide": "styleguidist server",
-		"styleguide:build": "styleguidist build"
+		"ssr:build": "webpack --mode production"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
